@@ -1,0 +1,422 @@
+<SBAppWindow: 0x17e36610; baseClass = UIWindow; frame = (0 0; 320 568); opaque = NO; gestureRecognizers = <NSArray: 0x17f98710>; layer = <UIWindowLayer: 0x17f97fd0>>
+	   | <UIView: 0x17f99330; frame = (0 0; 320 568); autoresize = W+H; layer = <CALayer: 0x17f993a0>>
+	   |    | <SBIconContentView: 0x190ce150; frame = (0 0; 320 568); clipsToBounds = YES; autoresize = W+H; layer = <CALayer: 0x190ce320>>
+	   |    |    | <SBRootFolderView: 0x1915b1d0; frame = (0 0; 320 568); layer = <CALayer: 0x1915b0c0>>
+	   |    |    |    | <UIView: 0x1915b310; frame = (0 0; 320 568); layer = <CALayer: 0x1915b380>>
+	   |    |    |    |    | <SBIconScrollView: 0x1915b3d0; baseClass = UIScrollView; frame = (0 20; 320 436); autoresize = W+H; gestureRecognizers = <NSArray: 0x1915b650>; animations = { <_UIParallaxMotionEffect: 0x190d3b20>=<CAAnimationGroup: 0x190a0b50>; }; layer = <CALayer: 0x1915b5b0>; contentOffset: {309, 0}; contentSize: {960, 436}>
+	   |    |    |    |    |    | <SBRootIconListView 0x17f2aeb0: frame = {{0, 0}, {320, 436}}; Model = <SBIconListModel: 0x1900f950; 19 icons; folder = <SBRootFolderWithDock: 0x17f316a0, (null)>>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191aaee0; frame = (16 5; 60 74); opaque = NO; layer = <CALayer: 0x191aa360>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191a9d20; baseClass = _UILegibilityView; frame = (0.5 62.5; 59 19); userInteractionEnabled = NO; layer = <CALayer: 0x191ab000>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a9ee0; frame = (-12 -12; 83 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a9f60>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191aa640; frame = (0 0; 59 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a9ce0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191a9dc0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191ab050>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19198500; frame = (92 5; 60 74); opaque = NO; layer = <CALayer: 0x191985f0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x1918f500; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x1918f5a0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19083760; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17d6be00>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d85350; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19195b40>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191661e0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19161520>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191a5ad0; frame = (168 5; 60 74); opaque = NO; layer = <CALayer: 0x191a4dc0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191a45f0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191a4690>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a0cd0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a3670>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1919e8b0; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a56d0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191a5bd0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191a5c60>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19168160; frame = (244 5; 60 74); opaque = NO; layer = <CALayer: 0x191acc10>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191960c0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191aec90>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1919fd90; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1919f330>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1919f830; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1919e9a0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17e00440; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1922e770>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191a7870; frame = (16 93; 60 74); opaque = NO; layer = <CALayer: 0x191a7960>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191a9070; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191a9110>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a8c60; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a87d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a7d40; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a98a0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191a6f40; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1918f910>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19252440; frame = (92 93; 60 74); opaque = NO; layer = <CALayer: 0x192520e0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19252580; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x19252620>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a5280; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a1310>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a5030; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a4fd0>>
+	   |    |    |    |    |    |    |    | <SBClockApplicationIconImageView: 0x17dd9fe0; pause causes: none>
+	   |    |    |    |    |    |    |    |    | <CALayer: 0x19094120> (layer)
+	   |    |    |    |    |    |    |    |    | <CALayer: 0x19179f20> (layer)
+	   |    |    |    |    |    |    |    |    | <CALayer: 0x191930e0> (layer)
+	   |    |    |    |    |    |    |    |    | <CALayer: 0x19025970> (layer)
+	   |    |    |    |    |    |    |    |    | <CALayer: 0x19179d90> (layer)
+	   |    |    |    |    |    |    | <SBIconView: 0x191acfc0; frame = (168 93; 60 74); opaque = NO; layer = <CALayer: 0x191aba00>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191aa8d0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191aa970>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191adeb0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a9f90>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191ade30; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191ab570>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191ab7a0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191ab830>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191b19c0; frame = (244 93; 60 74); opaque = NO; layer = <CALayer: 0x191b1ab0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b1b30; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b1bd0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b28b0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b1d70>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b2830; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a46f0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b1c20; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b1cb0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19257710; frame = (16 181; 60 74); opaque = NO; layer = <CALayer: 0x192559f0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19257080; baseClass = _UILegibilityView; frame = (10.5 62.5; 40 19); userInteractionEnabled = NO; layer = <CALayer: 0x17feb730>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17ff5cf0; frame = (-12 -12; 64 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19256f60>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1925c7e0; frame = (0 0; 40 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926dfb0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19256640; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x17efb560>>
+	   |    |    |    |    |    |    | <SBIconView: 0x17fc7ed0; frame = (92 181; 60 74); opaque = NO; layer = <CALayer: 0x19257e60>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17fc8120; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x192565d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1919a3d0; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19177fe0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191aed40; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191905f0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19268d20; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19250570>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191a1b70; frame = (168 181; 60 74); opaque = NO; layer = <CALayer: 0x191a1960>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191a04b0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191a0300>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19251d30; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19251db0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19251cb0; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19250190>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191a0550; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191a0330>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191b1310; frame = (244 181; 60 74); opaque = NO; layer = <CALayer: 0x191ae0a0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b1630; baseClass = _UILegibilityView; frame = (-8.5 62.5; 78 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b1400>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b1940; frame = (-12 -12; 102 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191ab490>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b17f0; frame = (0 0; 78 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b2610>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b16d0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b1430>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19168da0; frame = (16 269; 60 74); opaque = NO; layer = <CALayer: 0x191ae5b0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19183d80; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x19170cc0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17f24be0; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f04fa0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17fe4070; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f05d80>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19190d70; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x190e91c0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x1919fa00; frame = (92 269; 60 74); opaque = NO; layer = <CALayer: 0x1919faf0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192515b0; baseClass = _UILegibilityView; frame = (-6.5 62.5; 73 19); userInteractionEnabled = NO; layer = <CALayer: 0x19256fd0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1919e5e0; frame = (-12 -12; 97 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191834b0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a0e80; frame = (0 0; 73 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1919fe90>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19252b30; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19268c90>>
+	   |    |    |    |    |    |    | <SBIconView: 0x17f16bf0; frame = (168 269; 60 74); opaque = NO; layer = <CALayer: 0x192595c0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17f16ce0; baseClass = _UILegibilityView; frame = (0.5 62.5; 60 19); userInteractionEnabled = NO; layer = <CALayer: 0x19252c20>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19250c60; frame = (-12 -12; 84 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f8c270>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19250be0; frame = (0 0; 60 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f11b10>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17f16d80; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x192686a0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191a8ce0; frame = (244 269; 60 74); opaque = NO; layer = <CALayer: 0x191a9af0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191a92c0; baseClass = _UILegibilityView; frame = (8.5 62.5; 43 19); userInteractionEnabled = NO; layer = <CALayer: 0x191a8530>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a9450; frame = (-12 -12; 67 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a7e30>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191aa1e0; frame = (0 0; 43 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191ab180>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191a9360; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191a8dd0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x1919ea00; frame = (16 357; 60 74); opaque = NO; layer = <CALayer: 0x1919e740>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x1919eaf0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x1919e6d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a18e0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1919e770>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a15b0; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1919e9d0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x1919eb90; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1919ec20>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191a5d00; frame = (92 357; 60 74); opaque = NO; layer = <CALayer: 0x191a1870>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191a2600; baseClass = _UILegibilityView; frame = (0.5 62.5; 60 19); userInteractionEnabled = NO; layer = <CALayer: 0x191a5e40>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192531f0; frame = (-12 -12; 84 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19253940>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19253170; frame = (0 0; 60 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19252820>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191a26a0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191a5e90>>
+	   |    |    |    |    |    |    | <SBIconView: 0x17f0c700; frame = (168 357; 60 74); opaque = NO; layer = <CALayer: 0x17f11c00>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x1925a600; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x19257af0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19190cf0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19190e00>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1918f480; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1918f5d0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17f8c150; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x17f8c2c0>>
+	   |    |    |    |    |    |    |    | <SBIconParallaxBadgeView: 0x19254df0; frame = (46 -10; 24 24); animations = { <UIInterpolatingMotionEffect: 0x191982e0>=<CABasicAnimation: 0x1922e560>; <UIInterpolatingMotionEffect: 0x191983a0>=<CABasicAnimation: 0x19439f90>; }; layer = <CALayer: 0x19254ee0>>
+	   |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x17f16b60; baseClass = UIImageView; frame = (0 0; 24 24); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192688f0>>{brightness=1.000000 image=<_UIResizableImage: 0x19195100>}
+	   |    |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x19195220; baseClass = UIImageView; frame = (9 2; 6 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191952b0>>{brightness=1.000000 image=<SBIconAccessoryImage: 0x191b4820>}
+	   |    |    |    |    |    | <SBRootIconListView 0x17f43dc0: frame = {{320, 0}, {320, 436}}; Model = <SBIconListModel: 0x19154610; 20 icons; folder = <SBRootFolderWithDock: 0x17f316a0, (null)>>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191b4240; frame = (16 5; 60 74); opaque = NO; layer = <CALayer: 0x191b4330>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b43d0; baseClass = _UILegibilityView; frame = (10.5 62.5; 40 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b4470>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b4e90; frame = (-12 -12; 64 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a5470>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b4790; frame = (0 0; 40 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191a5440>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b44c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b4550>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191a5fe0; frame = (92 5; 60 74); opaque = NO; layer = <CALayer: 0x191a60d0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b58e0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191a64d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1925af40; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19253750>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19254b40; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1925b110>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b5230; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191a3610>>
+	   |    |    |    |    |    |    | <SBFolderIconView: 0x191b5430; frame = (168 5; 60 74); opaque = NO; layer = <CALayer: 0x191b4720>> Folder: <SBFolder: 0x19155c70, 附加程序>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b5af0; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b6520>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1925ff10; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19260760>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1925fa10; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19261060>>
+	   |    |    |    |    |    |    |    | <SBFolderIconImageView: 0x191b5d00; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b5f20>>
+	   |    |    |    |    |    |    |    |    | <SBFolderIconBackgroundView: 0x191b69b0; frame = (1 1; 60 60); userInteractionEnabled = NO; layer = <CALayer: 0x191b6ba0>>
+	   |    |    |    |    |    |    |    |    | <UIView: 0x19254fb0; frame = (8.5 8.5; 45 45); clipsToBounds = YES; userInteractionEnabled = NO; layer = <CALayer: 0x19252ed0>>
+	   |    |    |    |    |    |    |    |    |    | <_SBIconGridWrapperView: 0x1925b2f0; baseClass = UIImageView; frame = (0 0; 45 45); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19255160>>
+	   |    |    |    |    |    |    |    |    |    | <_SBIconGridWrapperView: 0x1925c250; baseClass = UIImageView; frame = (51 0; 45 45); userInteractionEnabled = NO; layer = <CALayer: 0x1925b4b0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19260010; frame = (244 5; 60 74); opaque = NO; layer = <CALayer: 0x19260100>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192601c0; baseClass = _UILegibilityView; frame = (-1.5 62.5; 64 19); userInteractionEnabled = NO; layer = <CALayer: 0x19260260>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19262780; frame = (-12 -12; 88 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19262800>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19260400; frame = (0 0; 64 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19260570>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192602b0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19260340>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19262b40; frame = (16 93; 60 74); opaque = NO; layer = <CALayer: 0x19261a70>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19261af0; baseClass = _UILegibilityView; frame = (-1.5 62.5; 64 19); userInteractionEnabled = NO; layer = <CALayer: 0x192622d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19261ed0; frame = (-12 -12; 88 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192621b0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19262470; frame = (0 0; 64 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19263880>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19262320; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x192623b0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19263310; frame = (92 93; 60 74); opaque = NO; layer = <CALayer: 0x19261f90>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19263400; baseClass = _UILegibilityView; frame = (4 62.5; 53 19); userInteractionEnabled = NO; layer = <CALayer: 0x192634a0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19267e40; frame = (-12 -12; 77 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19252850>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19264320; frame = (0 0; 53 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192636a0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192634d0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19263560>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x19263cc0; frame = (-8.5 67.5; 8 8); layer = <CALayer: 0x19263d60>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x1926cca0; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192696f0>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x1926cd20; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926caa0>>
+	   |    |    |    |    |    |    |    | <SBIconParallaxBadgeView: 0x1926cda0; frame = (40 -10; 30 24); animations = { <UIInterpolatingMotionEffect: 0x1926c5d0>=<CABasicAnimation: 0x17f3a240>; <UIInterpolatingMotionEffect: 0x1926c690>=<CABasicAnimation: 0x192c20c0>; }; layer = <CALayer: 0x1926c350>>
+	   |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x1926c380; baseClass = UIImageView; frame = (0 0; 30 24); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926c410>>{brightness=1.000000 image=<_UIResizableImage: 0x1926c460>}
+	   |    |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x1926c4f0; baseClass = UIImageView; frame = (6 2; 18 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926c580>>{brightness=1.000000 image=<SBIconAccessoryImage: 0x1926e400>}
+	   |    |    |    |    |    |    | <SBIconView: 0x1926ea20; frame = (168 93; 60 74); opaque = NO; layer = <CALayer: 0x1926eb10>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x1926d020; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x1926d0c0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b7400; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b6950>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b76b0; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b7730>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x1926d0f0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1926d180>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191b77e0; frame = (244 93; 60 74); opaque = NO; layer = <CALayer: 0x191b78d0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b6fd0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191aa010>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19271cc0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19271d40>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19271bf0; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19271c70>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b7120; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b7090>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19271df0; frame = (16 181; 60 74); opaque = NO; layer = <CALayer: 0x19271ee0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19271000; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x192710a0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19271f10; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926e370>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1926e170; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926e340>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192710f0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19271180>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19272030; frame = (92 181; 60 74); opaque = NO; layer = <CALayer: 0x19272120>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192721a0; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x19272240>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192732d0; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926e2b0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192723e0; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926e280>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19272290; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19272320>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19272ca0; frame = (168 181; 60 74); opaque = NO; layer = <CALayer: 0x192733b0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19272dc0; baseClass = _UILegibilityView; frame = (4 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x19272e60>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19273af0; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19272770>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19272910; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19272740>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192727c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19272850>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x19273bb0; frame = (-8.5 67.5; 8 8); layer = <CALayer: 0x19273c20>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x19272a80; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19272b00>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x19272b30; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19272bb0>>
+	   |    |    |    |    |    |    |    | <SBIconParallaxBadgeView: 0x19273010; frame = (46 -10; 24 24); animations = { <UIInterpolatingMotionEffect: 0x19273d70>=<CABasicAnimation: 0x192f4360>; <UIInterpolatingMotionEffect: 0x19273870>=<CABasicAnimation: 0x17fdc840>; }; layer = <CALayer: 0x192730a0>>
+	   |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x192730d0; baseClass = UIImageView; frame = (0 0; 24 24); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192736b0>>{brightness=1.000000 image=<_UIResizableImage: 0x19273700>}
+	   |    |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x19273790; baseClass = UIImageView; frame = (9 2; 6 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19273820>>{brightness=1.000000 image=<SBIconAccessoryImage: 0x191b4820>}
+	   |    |    |    |    |    |    | <SBIconView: 0x19273f40; frame = (244 181; 60 74); opaque = NO; layer = <CALayer: 0x19274030>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192740d0; baseClass = _UILegibilityView; frame = (4 62.5; 53 19); userInteractionEnabled = NO; layer = <CALayer: 0x19274170>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19274fb0; frame = (-12 -12; 77 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192636d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19274610; frame = (0 0; 53 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19267da0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192741c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19274250>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x19275030; frame = (-8.5 67.5; 8 8); layer = <CALayer: 0x19274330>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x192750a0; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19274480>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x19274970; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19272a20>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192749f0; frame = (16 269; 60 74); opaque = NO; layer = <CALayer: 0x19274ae0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19274b80; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x19274c20>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19275b50; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19275bd0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192746f0; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192748a0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19274c70; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19274d00>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19275c80; frame = (92 269; 60 74); opaque = NO; layer = <CALayer: 0x19275d70>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192755d0; baseClass = _UILegibilityView; frame = (-1.5 62.5; 64 19); userInteractionEnabled = NO; layer = <CALayer: 0x19275670>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19277070; frame = (-12 -12; 88 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19275840>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19277430; frame = (0 0; 64 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19275810>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192756c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19275750>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19276140; frame = (168 269; 60 74); opaque = NO; layer = <CALayer: 0x192770f0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19276280; baseClass = _UILegibilityView; frame = (-1.5 62.5; 64 19); userInteractionEnabled = NO; layer = <CALayer: 0x19276320>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b1210; frame = (-12 -12; 88 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b4fb0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b7210; frame = (0 0; 64 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b8f10>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19276370; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19276400>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191adf30; frame = (244 269; 60 74); opaque = NO; layer = <CALayer: 0x191b72b0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b7d70; baseClass = _UILegibilityView; frame = (-7.5 62.5; 76 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b7e10>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19277790; frame = (-12 -12; 100 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19277810>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192767b0; frame = (0 0; 76 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19277890>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b4d30; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b4dc0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19278650; frame = (16 357; 60 74); opaque = NO; layer = <CALayer: 0x19278740>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19277610; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x192776b0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192785a0; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19276690>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192764c0; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19278a00>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192778e0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19277970>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x17db75c0; frame = (0 0; 62 62); alpha = 0.4; opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1916dd30>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19277bb0; frame = (92 357; 60 74); opaque = NO; layer = <CALayer: 0x19278820>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19277d30; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x19277cf0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b8b40; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b8bc0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b8ac0; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b9000>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19277df0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19277e80>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191b7e90; frame = (168 357; 60 74); opaque = NO; layer = <CALayer: 0x191b7f80>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b8000; baseClass = _UILegibilityView; frame = (-1.5 62.5; 64 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b80a0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192791a0; frame = (-12 -12; 88 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19277fc0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19279120; frame = (0 0; 64 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192765f0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b8c80; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b80f0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192792b0; frame = (244 357; 60 74); opaque = NO; layer = <CALayer: 0x192793a0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19278b50; baseClass = _UILegibilityView; frame = (-3.5 62.5; 68 19); userInteractionEnabled = NO; layer = <CALayer: 0x19279420>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b9310; frame = (-12 -12; 92 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b9390>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b9240; frame = (0 0; 68 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b92c0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19278c10; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19278ca0>>
+	   |    |    |    |    |    | <SBRootIconListView 0x191a39b0: frame = {{640, 0}, {320, 436}}; Model = <SBIconListModel: 0x191562f0; 19 icons; folder = <SBRootFolderWithDock: 0x17f316a0, (null)>>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191ca050; frame = (16 5; 60 74); opaque = NO; layer = <CALayer: 0x191cabb0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17f78db0; baseClass = _UILegibilityView; frame = (-7.5 62.5; 76 19); userInteractionEnabled = NO; layer = <CALayer: 0x19439d10>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17f73890; frame = (-12 -12; 100 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192f0fc0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17f28ef0; frame = (0 0; 76 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17ff3350>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17f70130; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x17fe95f0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191caa40; frame = (92 5; 60 74); opaque = NO; layer = <CALayer: 0x191c9940>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19234da0; baseClass = _UILegibilityView; frame = (4 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x19235780>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1915e450; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19138880>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191388e0; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1935c850>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17f77220; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x192d87e0>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x191234e0; frame = (-8.5 67.5; 8 8); layer = <CALayer: 0x191c5cc0>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x1925b940; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f62e90>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x192f0740; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17fd7860>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191c7d40; frame = (168 5; 60 74); opaque = NO; layer = <CALayer: 0x191c7ee0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192cbc90; baseClass = _UILegibilityView; frame = (10 62.5; 40 19); userInteractionEnabled = NO; layer = <CALayer: 0x19235c00>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d297e0; frame = (-12 -12; 64 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17d40c00>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x190f77e0; frame = (0 0; 40 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190e33a0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x1922dc50; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x192e45f0>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x19099990; frame = (-2.5 67.5; 8 8); layer = <CALayer: 0x17d6f5b0>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x190cf740; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19351050>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x191e4770; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191bb7d0>>
+	   |    |    |    |    |    |    |    | <SBIconParallaxBadgeView: 0x190c8b90; frame = (46 -10; 24 24); animations = { <UIInterpolatingMotionEffect: 0x1907b5c0>=<CABasicAnimation: 0x1901d720>; <UIInterpolatingMotionEffect: 0x1907b640>=<CABasicAnimation: 0x191dca70>; }; layer = <CALayer: 0x17dc95c0>>
+	   |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x191f1d60; baseClass = UIImageView; frame = (0 0; 24 24); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1903d640>>{brightness=1.000000 image=<_UIResizableImage: 0x17d36930>}
+	   |    |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x17d706c0; baseClass = UIImageView; frame = (9 2; 6 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17d74ca0>>{brightness=1.000000 image=<SBIconAccessoryImage: 0x191b4820>}
+	   |    |    |    |    |    |    | <SBIconView: 0x191c9f60; frame = (244 5; 60 74); opaque = NO; layer = <CALayer: 0x191cacf0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17d39310; baseClass = _UILegibilityView; frame = (4.5 62.5; 52 19); userInteractionEnabled = NO; layer = <CALayer: 0x190dd080>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d3fee0; frame = (-12 -12; 76 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19328860>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x190f7890; frame = (0 0; 52 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190e3110>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191f4c30; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1917a030>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19286db0; frame = (16 93; 60 74); opaque = NO; layer = <CALayer: 0x19287fe0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19354660; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x19127ab0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x190d2e00; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191396d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191f3960; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191f0460>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x193b43b0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1932a890>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191ca710; frame = (92 93; 60 74); opaque = NO; layer = <CALayer: 0x191ca680>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17d29890; baseClass = _UILegibilityView; frame = (4 62.5; 53 19); userInteractionEnabled = NO; layer = <CALayer: 0x17db8180>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17e28de0; frame = (-12 -12; 77 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192f3a80>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19270cb0; frame = (0 0; 53 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192ea7e0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17d289c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19126c90>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x19259a70; frame = (-8.5 67.5; 8 8); layer = <CALayer: 0x194671a0>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x192f1bb0; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17ec0f60>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x17f9bf10; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1923cd10>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191ca550; frame = (168 93; 60 74); opaque = NO; layer = <CALayer: 0x191ca520>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17fd6350; baseClass = _UILegibilityView; frame = (-8.5 62.5; 77 19); userInteractionEnabled = NO; layer = <CALayer: 0x192a2900>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17fd0870; frame = (-12 -12; 101 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192e2270>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17ebb940; frame = (0 0; 77 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1949ad60>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17ec4690; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x17f96f90>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191ca340; frame = (244 93; 60 74); opaque = NO; layer = <CALayer: 0x191ca2b0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192201f0; baseClass = _UILegibilityView; frame = (12.5 62.5; 36 19); userInteractionEnabled = NO; layer = <CALayer: 0x19255460>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192f0d20; frame = (-12 -12; 60 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x194edcc0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17e37f30; frame = (0 0; 36 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1923bfa0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x1943f190; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1926dce0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192888a0; frame = (16 181; 60 74); opaque = NO; layer = <CALayer: 0x19288810>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17f90ee0; baseClass = _UILegibilityView; frame = (10 62.5; 40 19); userInteractionEnabled = NO; layer = <CALayer: 0x192dacc0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d35820; frame = (-12 -12; 64 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19021940>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d3df40; frame = (0 0; 40 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190da930>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17f96580; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x17e13bb0>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x19164d70; frame = (-2.5 67.5; 8 8); layer = <CALayer: 0x191cca00>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x17d35a90; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191e5800>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x17d34ee0; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1910de00>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191ca180; frame = (92 181; 60 74); opaque = NO; layer = <CALayer: 0x191c9650>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19354900; baseClass = _UILegibilityView; frame = (16.5 62.5; 27 19); userInteractionEnabled = NO; layer = <CALayer: 0x17d6d110>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19328420; frame = (-12 -12; 51 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1938b990>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191a3a60; frame = (0 0; 27 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17dacb60>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17d40840; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1903e0e0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192886e0; frame = (168 181; 60 74); opaque = NO; layer = <CALayer: 0x19288650>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x17d31f70; baseClass = _UILegibilityView; frame = (10 62.5; 40 19); userInteractionEnabled = NO; layer = <CALayer: 0x193e8b90>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1922e050; frame = (-12 -12; 64 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19225660>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17e24e90; frame = (0 0; 40 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17fd6e40>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17d38490; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1937e510>>
+	   |    |    |    |    |    |    |    | <SBIconRecentlyUpdatedLabelAccessoryView: 0x192e2cf0; frame = (-2.5 67.5; 8 8); layer = <CALayer: 0x1923aab0>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x17f299d0; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1922a6a0>>
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x19439090; frame = (0 0; 8 8); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17ff49f0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192870a0; frame = (244 181; 60 74); opaque = NO; layer = <CALayer: 0x19287010>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192f1960; baseClass = _UILegibilityView; frame = (8.5 62.5; 44 19); userInteractionEnabled = NO; layer = <CALayer: 0x19253df0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192acc60; frame = (-12 -12; 68 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17e3fc70>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192b74e0; frame = (0 0; 44 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19232c50>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192773a0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x192b0a60>>
+	   |    |    |    |    |    |    |    | <SBIconParallaxBadgeView: 0x17e27830; frame = (46 -10; 24 24); animations = { <UIInterpolatingMotionEffect: 0x19242b70>=<CABasicAnimation: 0x192c09b0>; <UIInterpolatingMotionEffect: 0x192f4940>=<CABasicAnimation: 0x19210970>; }; layer = <CALayer: 0x192b8500>>
+	   |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x17e369c0; baseClass = UIImageView; frame = (0 0; 24 24); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192ee230>>{brightness=1.000000 image=<_UIResizableImage: 0x17f9cb70>}
+	   |    |    |    |    |    |    |    |    |    | <SBDarkeningImageView: 0x17fb9830; baseClass = UIImageView; frame = (8 2; 9 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192ef560>>{brightness=1.000000 image=<SBIconAccessoryImage: 0x191c8f90>}
+	   |    |    |    |    |    |    | <SBIconView: 0x19287e90; frame = (16 269; 60 74); opaque = NO; layer = <CALayer: 0x19287e00>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192eb220; baseClass = _UILegibilityView; frame = (6.5 62.5; 47 19); userInteractionEnabled = NO; layer = <CALayer: 0x1928e2a0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19220140; frame = (-12 -12; 71 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1926a000>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192176b0; frame = (0 0; 47 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192f6490>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19431df0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1928e2d0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19288520; frame = (92 269; 60 74); opaque = NO; layer = <CALayer: 0x19288490>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x192fad00; baseClass = _UILegibilityView; frame = (-4.5 62.5; 70 19); userInteractionEnabled = NO; layer = <CALayer: 0x1922f0a0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192f6100; frame = (-12 -12; 94 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1920a740>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192e9ed0; frame = (0 0; 70 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192e9f50>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192e1520; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19245010>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19286ee0; frame = (168 269; 60 74); opaque = NO; layer = <CALayer: 0x192880b0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19296210; baseClass = _UILegibilityView; frame = (-4.5 62.5; 69 19); userInteractionEnabled = NO; layer = <CALayer: 0x192816f0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1911e0c0; frame = (-12 -12; 93 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1911b0d0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1911bb60; frame = (0 0; 69 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1932e350>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192ea5d0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19281720>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19288360; frame = (244 269; 60 74); opaque = NO; layer = <CALayer: 0x192882d0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191dc910; baseClass = _UILegibilityView; frame = (-1.5 62.5; 64 19); userInteractionEnabled = NO; layer = <CALayer: 0x1932bd40>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d198d0; frame = (-12 -12; 88 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190dce80>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x193b38b0; frame = (0 0; 64 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19363560>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17d6b7e0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b0290>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191c94e0; frame = (16 357; 60 74); opaque = NO; layer = <CALayer: 0x191c7e30>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x193ae6c0; baseClass = _UILegibilityView; frame = (-9.5 62.5; 79 19); userInteractionEnabled = NO; layer = <CALayer: 0x17d74af0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1910d6b0; frame = (-12 -12; 103 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1932d200>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19121820; frame = (0 0; 79 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1903d990>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x17d6ea50; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19058770>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192881a0; frame = (92 357; 60 74); opaque = NO; layer = <CALayer: 0x19288150>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x193acea0; baseClass = _UILegibilityView; frame = (-7.5 62.5; 75 19); userInteractionEnabled = NO; layer = <CALayer: 0x190c5190>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19031c20; frame = (-12 -12; 99 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19352da0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1931cf30; frame = (0 0; 75 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19111f30>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191ec060; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19012860>>
+	   |    |    |    |    |    |    | <SBIconView: 0x192878b0; frame = (168 357; 60 74); opaque = NO; layer = <CALayer: 0x192879a0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b0bc0; baseClass = _UILegibilityView; frame = (3.5 62.5; 54 19); userInteractionEnabled = NO; layer = <CALayer: 0x1932c850>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191de200; frame = (-12 -12; 78 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190c5ea0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x17d2a9a0; frame = (0 0; 54 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19094d60>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x190422c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1932b880>>
+	   |    |    |    |    |    | <SBSearchScrollView: 0x17f99c90; baseClass = UIScrollView; frame = (0 0; 320 436); clipsToBounds = YES; hidden = YES; gestureRecognizers = <NSArray: 0x17f9a410>; layer = <CALayer: 0x17f99fd0>; contentOffset: {0, 64}; contentSize: {320, 500}>
+	   |    |    |    |    |    |    | <UIImageView: 0x190d29d0; frame = (0 497.5; 320 2.5); alpha = 0; opaque = NO; autoresize = TM; userInteractionEnabled = NO; layer = <CALayer: 0x1915bb60>>
+	   |    |    |    |    | <SBIconListPageControl: 0x1915bba0; baseClass = UIPageControl; frame = (0 445.5; 320 37); autoresize = W; animations = { <_UIParallaxMotionEffect: 0x17f74440>=<CAAnimationGroup: 0x1922ec80>; }; layer = <CALayer: 0x1915ba30>>
+	   |    |    |    |    |    | <UIImageView: 0x19153c80; frame = (140.5 15; 7 7); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19153d00>>
+	   |    |    |    |    |    | <UIImageView: 0x19155af0; frame = (156.5 15; 7 7); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191dde70>>
+	   |    |    |    |    |    | <UIImageView: 0x191b6c30; frame = (172.5 15; 7 7); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19155b70>>
+	   |    |    |    |    | <SBDockView: 0x1915bff0; frame = (0 472; 320 96); autoresizesSubviews = NO; layer = <CALayer: 0x1915c080>>
+	   |    |    |    |    |    | <SBWallpaperEffectView: 0x1915c270; frame = (0 0; 320 126); clipsToBounds = YES; layer = <CALayer: 0x1915c340>> (start=11, end=11, fraction=0.000000)
+	   |    |    |    |    |    |    | <_SBFakeBlurView: 0x1915c370; frame = (0 0; 320 568); animations = { AlignFakeWallpaperToLayer-0x17f98540=<CAMatchMoveAnimation: 0x19230680>; }; layer = <CALayer: 0x1915c3f0>>
+	   |    |    |    |    |    |    |    | <SBFWallpaperView: 0x1915c420; frame = (0 0; 320 568); layer = <CALayer: 0x1915c4f0>>
+	   |    |    |    |    |    |    |    |    | <UIView: 0x1915c520; frame = (0 0; 320 568); animations = { <_UIParallaxMotionEffect: 0x1915c690>=<CABasicAnimation: 0x1924ea00>; }; layer = <CALayer: 0x1915c590>>
+	   |    |    |    |    |    |    |    |    |    | <UIImageView: 0x17f2b7d0; frame = (-26 -64; 372 696); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f2b850>>
+	   |    |    |    |    |    | <SBDockIconListView 0x1915bda0: frame = {{0, 0}, {320, 96}}; Model = <SBIconListModel: 0x17f2fe80; 4 icons; folder = <SBRootFolderWithDock: 0x17f316a0, (null)>>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191b9820; frame = (16 14; 60 74); opaque = NO; layer = <CALayer: 0x191b9910>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b99b0; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191b9a50>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x192782d0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19279bd0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x19279b20; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x19279ba0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x19278150; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x1926d9e0>>
+	   |    |    |    |    |    |    | <SBIconView: 0x19279860; frame = (92 14; 60 74); opaque = NO; layer = <CALayer: 0x192783b0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x19278d60; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x19278e00>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b9fe0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191ba920>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b9f60; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b8580>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x192794c0; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19278e50>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191ba160; frame = (168 14; 60 74); opaque = NO; layer = <CALayer: 0x191ba250>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191b85c0; baseClass = _UILegibilityView; frame = (11.5 62.5; 37 19); userInteractionEnabled = NO; layer = <CALayer: 0x191ba2f0>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b8900; frame = (-12 -12; 61 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b8980>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x191b8850; frame = (0 0; 37 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b88d0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191b8680; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191b8710>>
+	   |    |    |    |    |    |    | <SBIconView: 0x191baa00; frame = (244 14; 60 74); opaque = NO; layer = <CALayer: 0x191baaf0>>
+	   |    |    |    |    |    |    |    | <SBIconLabelView: 0x191bab90; baseClass = _UILegibilityView; frame = (16.5 62.5; 28 19); userInteractionEnabled = NO; layer = <CALayer: 0x191bac30>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1927a8b0; frame = (-12 -12; 52 43); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1927b820>>
+	   |    |    |    |    |    |    |    |    | <_UILegibilityImageView: 0x1927a090; frame = (0 0; 28 19); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x192796e0>>
+	   |    |    |    |    |    |    |    | <SBIconImageView: 0x191bac80; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x191bad10>>
+	   |    |    |    |    |    | <SBHighlightView: 0x1915c0b0; frame = (0 -1; 320 2.5); layer = <CALayer: 0x1915c130>>
+	   |    |    |    |    |    |    | <UIImageView: 0x1915c160; frame = (0 0; 320 2.5); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1915c200>>
+	   |    |    |    | <UIView: 0x17f9e840; frame = (0 0; 320 568); hidden = YES; autoresize = W+H; layer = <CALayer: 0x17f9e8b0>>
+	   |    |    |    |    | <SBSearchResultsBackdropView: 0x17f9f080; frame = (0 44; 320 524); userInteractionEnabled = NO; layer = <CALayer: 0x17f9f260>>
+	   |    |    |    |    |    | <UIView: 0x17f9f3a0; frame = (0 0; 320 524); layer = <CALayer: 0x17f9f410>>
+	   |    |    |    |    | <UILayoutContainerView: 0x17fa0500; frame = (0 0; 320 568); autoresize = W+H; gestureRecognizers = <NSArray: 0x190da990>; layer = <CALayer: 0x17fa06e0>>
+	   |    |    |    |    |    | <UINavigationTransitionView: 0x190d7d90; frame = (0 0; 320 568); clipsToBounds = YES; autoresize = W+H; layer = <CALayer: 0x190d7f30>>
+	   |    |    |    |    |    |    | <UIViewControllerWrapperView: 0x17fbfcc0; frame = (0 0; 320 568); autoresize = W+H; layer = <CALayer: 0x17fbfe40>>
+	   |    |    |    |    |    |    |    | <UIView: 0x190dcb80; frame = (0 44; 320 524); autoresize = W+H; gestureRecognizers = <NSArray: 0x190dce50>; layer = <CALayer: 0x190dcbf0>>
+	   |    |    |    |    |    |    |    |    | <SBSearchTableView: 0x18c7f600; baseClass = UITableView; frame = (0 0; 320 524); clipsToBounds = YES; alpha = 0; hidden = YES; opaque = NO; gestureRecognizers = <NSArray: 0x190db510>; layer = <CALayer: 0x190db2b0>; contentOffset: {0, 0}; contentSize: {320, 0}>
+	   |    |    |    |    |    |    |    |    |    | <UITableViewWrapperView: 0x190db860; frame = (0 0; 320 524); gestureRecognizers = <NSArray: 0x190dbd60>; layer = <CALayer: 0x190dbba0>; contentOffset: {0, 0}; contentSize: {320, 524}>
+	   |    |    |    |    |    |    |    |    |    | <UIImageView: 0x191dcfc0; frame = (0 521.5; 320 2.5); alpha = 0; opaque = NO; autoresize = TM; userInteractionEnabled = NO; layer = <CALayer: 0x191dd160>>
+	   |    |    |    |    |    |    |    |    |    | <UIImageView: 0x191dd610; frame = (317.5 605; 2.5 7); alpha = 0; opaque = NO; autoresize = LM; userInteractionEnabled = NO; layer = <CALayer: 0x191dd690>>
+	   |    |    |    |    |    |    |    |    | <UILabel: 0x17fb6350; frame = (33 33; 51 20.5); text = '无结果'; hidden = YES; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x17fb6520>>
+	   |    |    |    |    |    |    |    |    |    | <_UILabelContentLayer: 0x190fae50> (layer)
+	   |    |    |    |    |    | <UINavigationBar: 0x190d4bf0; frame = (0 0; 320 44); autoresize = W; gestureRecognizers = <NSArray: 0x190d61d0>; layer = <CALayer: 0x190d4e30>>
+	   |    |    |    |    |    |    | <SBWallpaperEffectView: 0x190e2f10; frame = (0 0; 320 44); clipsToBounds = YES; autoresize = W+H; userInteractionEnabled = NO; layer = <CALayer: 0x190e2c60>> (start=11, end=11, fraction=0.000000)
+	   |    |    |    |    |    |    |    | <_SBFakeBlurView: 0x17fa0960; frame = (0 0; 320 568); animations = { AlignFakeWallpaperToLayer-0x17f98540=<CAMatchMoveAnimation: 0x190f5b50>; }; layer = <CALayer: 0x17e70ed0>>
+	   |    |    |    |    |    |    |    |    | <SBFWallpaperView: 0x17fa09e0; frame = (0 0; 320 568); layer = <CALayer: 0x17fa0770>>
+	   |    |    |    |    |    |    |    |    |    | <UIView: 0x17fa0e70; frame = (0 0; 320 568); layer = <CALayer: 0x17fa0ee0>>
+	   |    |    |    |    |    |    |    |    |    |    | <UIImageView: 0x190e2ff0; frame = (-26 -64; 372 696); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190e3070>>
+	   |    |    |    |    |    |    | <SBSearchHeader: 0x17fa17a0; frame = (8 -3; 304 50); hidden = YES; layer = <CALayer: 0x17fa1970>>
+	   |    |    |    |    |    |    |    | <SBSearchField: 0x17fa1c40; baseClass = UITextField; frame = (0 10; 258 30); text = ''; clipsToBounds = YES; opaque = NO; gestureRecognizers = <NSArray: 0x191d9ff0>; layer = <CALayer: 0x17fa1f10>>
+	   |    |    |    |    |    |    |    |    | <_UITextFieldRoundedRectBackgroundViewNeue: 0x190d3000; frame = (0 0; 258 30); opaque = NO; autoresize = W+H; userInteractionEnabled = NO; layer = <CALayer: 0x190d64c0>>
+	   |    |    |    |    |    |    |    |    | <_UIBaselineLayoutStrut: 0x17fb5370; frame = (0 4; 0 21); hidden = YES; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x17fb5590>>
+	   |    |    |    |    |    |    |    |    |    | <_UILabelContentLayer: 0x17fbabd0> (layer)
+	   |    |    |    |    |    |    |    |    | <UIImageView: 0x190e2cf0; frame = (6 9; 13 13); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x190d4f00>>
+	   |    |    |    |    |    |    |    |    | <UITextFieldLabel: 0x190d4b30; frame = (26 1; 225 27); text = '搜索：iPod'; alpha = 0.25; opaque = NO; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x190dba40>>
+	   |    |    |    |    |    |    |    |    |    | <_UILabelContentLayer: 0x17fbbdc0> (layer)
+	   |    |    |    |    |    |    |    | <UINavigationButton: 0x190e7e10; frame = (270 10; 34 30); opaque = NO; layer = <CALayer: 0x190e7380>>
+	   |    |    |    |    |    |    |    |    | <UIButtonLabel: 0x17fae2d0; frame = (0 4.5; 34 20.5); text = '取消'; opaque = NO; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x17fab800>>
+	   |    |    |    |    |    |    |    |    |    | <_UILabelContentLayer: 0x17fb6300> (layer)
+	   |    |    |    |    |    |    | <_UINavigationBarBackIndicatorView: 0x17f9fce0; frame = (8 11.5; 13 21); alpha = 0; opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x17f9fe70>>
+	   | <SBRecycledViewsContainer: 0x19286210; frame = (0 0; 0 0); alpha = 0; hidden = YES; userInteractionEnabled = NO; layer = <CALayer: 0x19287630>>
+	   |    | <SBIconView: 0x19287aa0; frame = (0 7; 60 74); opaque = NO; layer = <CALayer: 0x19287a10>>
+	   |    | <SBIconView: 0x19287c60; frame = (0 7; 60 74); opaque = NO; layer = <CALayer: 0x19287bd0>>
+	   |    | <SBIconView: 0x191c7040; frame = (0 7; 60 74); opaque = NO; layer = <CALayer: 0x191c9860>>
+	   |    | <SBIconImageView: 0x19252670; frame = (-1 -1; 62 62); userInteractionEnabled = NO; layer = <CALayer: 0x19252700>>
+	   |    | <SBIconParallaxBadgeView: 0x191b2a40; frame = (46 -10; 24 24); layer = <CALayer: 0x191b2ad0>>
+	   |    |    | <SBDarkeningImageView: 0x191b2b20; baseClass = UIImageView; frame = (0 0; 24 24); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x191b18e0>>{brightness=1.000000 image=<_UIResizableImage: 0x191b2cc0>}
+	   |    |    |    | <SBDarkeningImageView: 0x191b2d50; baseClass = UIImageView; frame = (12 11; 0 0); userInteractionEnabled = NO; layer = <CALayer: 0x191b2fa0>>{brightness=1.000000 image=(null)}
