@@ -4,7 +4,7 @@ The code for ios Dev.
 
 # Find The Settings path of prefs
 
-First of All, *Using a Jailbroken iOS device*, You can read the file at `/private/var/mobile/Library/Preferences/com.apple.Preferences.plist`
+First of All, **Using a Jailbroken iOS device**, You can read the file at `/private/var/mobile/Library/Preferences/com.apple.Preferences.plist`
 
 [Reference](http://stackoverflow.com/questions/8246070/ios-launching-settings-restrictions-url-scheme#comment56751438_33896318)
 
