@@ -2,8 +2,12 @@
 The code for ios Dev.
 
 ## GetWiFiSSID.m
+Get Wi-Fi Mac address and name.
+
 
 ## SBAppWindow Subview Tree
+SpringBoard's all view.
+
 
 ## OpenPrefs
 **Find The Settings path for openURL just like "prefs:root=General&path=About**
