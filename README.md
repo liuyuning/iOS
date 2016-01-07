@@ -23,9 +23,10 @@ First of all, **Use a Jailbroken iOS device**, and you can read the file at "/pr
   Path:`/private/var/mobile/Library/Preferences/com.apple.Preferences.plist`
  
  3. Read the 
-  Key "kPreferencePositionKey"
+ 
+`kPreferencePositionKey`
 
-  Value "prefs:root=General%23-64&path=ACCESSIBILITY%230/SUBTITLES_CAPTIONING%230/currentTheme%23-64"
+ `prefs:root=General%23-64&path=ACCESSIBILITY%230/SUBTITLES_CAPTIONING%230/currentTheme%23-64`
   
   ![iOS](OpenPrefs/kPreferencePositionKey.png)
 
