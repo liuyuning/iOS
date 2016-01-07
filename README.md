@@ -10,9 +10,9 @@ SpringBoard's all view.
 
 
 ## OpenPrefs
-**Find The Settings path for openURL just like "prefs:root=General&path=About**
+**Find The Settings path for openURL just like "prefs:root=General&path=About"**
 
-First of all, **Using a Jailbroken iOS device**, and you can read the file at "/private/var/mobile/Library/Preferences/com.apple.Preferences.plist"
+First of all, **Use a Jailbroken iOS device**, and you can read the file at "/private/var/mobile/Library/Preferences/com.apple.Preferences.plist"
 
  1. Launch system "Settings" navigate to item, and send the "Settings" to background.
  
