@@ -23,11 +23,11 @@ First of all, **Use a Jailbroken iOS device**, and you can read the file at "/pr
   Path:`/private/var/mobile/Library/Preferences/com.apple.Preferences.plist`
  
  3. Read the 
-   Key "kPreferencePositionKey"
+  Key "kPreferencePositionKey"
 
-   Value "prefs:root=General%23-64&path=ACCESSIBILITY%230/SUBTITLES_CAPTIONING%230/currentTheme%23-64"
+  Value "prefs:root=General%23-64&path=ACCESSIBILITY%230/SUBTITLES_CAPTIONING%230/currentTheme%23-64"
   
-   ![iOS](OpenPrefs/kPreferencePositionKey.png)
+  ![iOS](OpenPrefs/kPreferencePositionKey.png)
 
  4. In you code add the openURL code below, and you can remove "%xxx".
 
