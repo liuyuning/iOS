@@ -22,7 +22,7 @@ First of all, **Use a Jailbroken iOS device**, and you can read the file at "/pr
  2. Read the file by iFile installed by Cydia, or export by iFunbox for Mac.
   Path:`/private/var/mobile/Library/Preferences/com.apple.Preferences.plist`
  
- 3. Read the key "kPreferencePositionKey"
+ 3. Copy the value of key "kPreferencePositionKey"
 
  `prefs:root=General%23-64&path=ACCESSIBILITY%230/SUBTITLES_CAPTIONING%230/currentTheme%23-64`
   
